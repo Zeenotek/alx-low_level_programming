@@ -1,18 +1,20 @@
-#include <unistd.h>
+#include "main.h"
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Succes)
  */
-int main(void)
+int man(void)
 {
-	char message[] = "_putchar\n";
-	int i = 0;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	while (message[i] != '\0')
-	{
-		write(1, &message[i], 1);
-		i++;
-	}
 	return (0);
 }
