@@ -2,9 +2,9 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Succes)
+ * Return: Always 0 (success)
  */
-int man(void)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
