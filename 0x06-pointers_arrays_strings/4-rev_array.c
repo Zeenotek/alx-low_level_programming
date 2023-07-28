@@ -5,6 +5,7 @@
  * @n: Number of elements
  * Return: always 0
  */
+
 void reverse_array(int *a, int n)
 {
 	int i = 0;
