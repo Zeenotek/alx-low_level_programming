@@ -12,11 +12,13 @@ char *_strcat(char *dest, char *src)
 	char *ptr = dest;
 
 	/* Move the pointer to the end of dest */
-	while (*ptr)
+	while (*ptr != '\0')
+	{
 		ptr++;
+	}
 
 			/* Append the content of src to dest */
-			while (*src)
+			while (*src != '\0')
 			{
 				*ptr = *src;
 				ptr++;
