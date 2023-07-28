@@ -18,9 +18,9 @@ char *_strcat(char *dest, char *src)
 			/* Append the content of src to dest */
 			while (*src)
 			{
-	      *ptr = *src;
-	      ptr++;
-	      src++;
+				*ptr = *src;
+				ptr++;
+				src++;
 			}
 
 	/* Add the terminating null byte */
